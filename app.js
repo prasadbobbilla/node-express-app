@@ -20,6 +20,11 @@ const port = process.env.PORT || config.get("port");
 app.get('/', function (req, res) {
   res.send('<div style="background: #00FA9A; min-height: 100vh;padding: 2%;"> <h2> Welcome to the default page!  <h2><br>' +
     '<h4>Try going to different URIs by adding these at the end: <br> <h4>' +
+             
+    '/hello <br>' +
+    '/big <br>' +
+    '/json <br>' +
+    '/greeting/yourname <br>' +
     '<h4>Link for information about "Node.js - Express Framework" <a href="https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm">https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm</a><h4>' +
     '<h4>Github link to repository <a href="https://github.com/prasadbobbilla/node-express-app">https://github.com/prasadbobbilla/node-express-app</a><h4>'
   )
