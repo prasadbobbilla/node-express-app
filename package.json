@@ -1,0 +1,39 @@
+{
+  "name": "express-app",
+  "description": "A super simple web app with Node.js and the Express web framework",
+  "version": "1.0.0",
+  "author": "Denise Case",
+  "bugs": {
+    "url": "https://github.com/denisecase/node-express-app/issues"
+  },
+  "contributors": [
+    "Denise Case <dcase@nwmissouri.edu> (https://github.com/profcase)"
+  ],
+  "dependencies": {
+    "config": "latest",
+    "express": "latest",
+    "helmet": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "homepage": "https://node-express-app-563.herokuapp.com/",
+  "keywords": [
+    "Express.js",
+    "JavaScript",
+    "Node.js",
+    "app",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisecase/node-express-app.git"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
